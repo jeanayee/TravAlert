@@ -1,9 +1,6 @@
 README
 ---------------------------
-Jeana Yee
-Gillian Wolff
-Carla Castro
-Mindy Seto
+Jeana Yee, Gillian Wolff, Carla Castro, Mindy Seto
 
 minSDK: 14
 Android Version: Work on Android 4.3 or higher
