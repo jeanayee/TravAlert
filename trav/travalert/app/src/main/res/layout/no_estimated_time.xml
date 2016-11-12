@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Could not fetch data on estimated travel time from Google. Enter your best travel time guess!"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/ok_json"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="OK" />
+    </LinearLayout>
+</LinearLayout>

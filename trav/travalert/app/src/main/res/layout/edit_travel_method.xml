@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="0.00"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="198dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/walkingEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Walking"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/walking" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/drivingEdit"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="Driving"
+            android:textColor="#000000"/>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/driving" />
+        </RelativeLayout>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/finishedTransportationEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+
+
+</LinearLayout>

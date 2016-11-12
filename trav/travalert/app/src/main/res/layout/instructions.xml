@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Send SMS alerts to emergency cntacts in case you don't arrive at your destination."
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="1. Enter destination"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="2. Select transportation method"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="3. Enter time before alert is sent based on Google Maps estimate"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="4. Select phone contacts"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="5. Confirm and start timer"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="6. Stay safe!"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="I'm Ready!" />
+
+
+    </LinearLayout>
+</LinearLayout>
